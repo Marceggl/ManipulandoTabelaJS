@@ -1,0 +1,144 @@
+body {
+    background-color: #c0c0c0;
+}
+
+.global {
+    display: flex;
+}
+
+.containerSide {
+    margin: 5px 50px;
+    border: none;
+    padding: 15px;
+    width: fit-content;
+    background-color: #403857;
+}
+
+div.linkEx {
+    margin-bottom: 10px;
+    margin-top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+}
+
+.recarregar {
+    margin-top: 15px;
+}
+
+div.linkEx a:hover {
+    background-color: #3718a8;
+}
+
+.containerPrinc {
+    margin: 5px;
+    border: none;
+    padding: 15px;
+    background-color: #403857;
+}
+
+.num {
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+#resNome {
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+}
+
+footer {
+    margin: 0;
+}
+
+footer p {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 8pt;
+    color: white;
+}
+
+.cabeca p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+
+/* Esconder as setinhas do input number */
+
+
+/* Chrome, Safari, Edge, Opera */
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
+/* Firefox */
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+
+/* Estilo botão */
+
+.button {
+    border: 1px solid black;
+    padding: 5px;
+    background-color: #4717F6;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.btnMiddle {
+    text-align: center;
+    margin-top: 5px;
+}
+
+.btn {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid black;
+    background-color: #4717F6;
+    color: #ffffff;
+}
+
+.btn:hover {
+    background-color: #3718a8;
+}
+
+.disable {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid black;
+    background-color: #9a81f8;
+    color: #ffffff;
+}
+
+.disable:hover {
+    background-color: #362966;
+}
+
+
+/* Estilo Tabela */
+
+table {
+    background-color: #E7DFDD;
+}
+
+table,
+th,
+td {
+    margin: 10px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
