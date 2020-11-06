@@ -1,9 +1,4 @@
 const btn = document.getElementById("btn");
-const reload = document.getElementById("reload");
-
-reload.addEventListener("click", function() {
-    document.location.reload();
-})
 
 //Veridicar se a entrada está vazia
 function verif(x) {
