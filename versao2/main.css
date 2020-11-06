@@ -1,0 +1,219 @@
+:root {
+    --color-body-fundo: rgb(16, 16, 27);
+    --color-global-fundo: rgb(24, 24, 27);
+    --color-input: rgb(70, 70, 73);
+    --color-input-button: rgb(160, 106, 242);
+    --color-button: rgb(41, 41, 44);
+    --color-button-hover: rgb(58, 58, 61);
+    --color-tabela-fundo: rgb(58, 58, 61);
+}
+
+body {
+    background-color: var(--color-body-fundo);
+}
+
+#global {
+    background-color: var(--color-global-fundo);
+    width: fit-content;
+    margin: 35px auto;
+    padding: 15px 15px 5px 15px;
+    box-shadow: 10px 10px 15px rgb(75, 75, 75);
+}
+
+
+/* Article */
+
+article {
+    height: fit-content;
+}
+
+p a {
+    color: var(--color-input-button);
+    text-shadow: 0 1px 10px var(--color-input-button);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border-bottom: 3px solid black;
+}
+
+nav a {
+    padding: 15px;
+    margin-left: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover {
+    transition: .5s;
+    color: var(--color-input-button);
+}
+
+.nav .current {
+    color: var(--color-input-button);
+    text-shadow: 0 1px 10px var(--color-input-button);
+}
+
+
+/* formulário */
+
+#centro {
+    text-align: center;
+}
+
+article {
+    margin-top: 15px;
+}
+
+.position {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.entrada {
+    font-family: arial;
+    font-size: large;
+    color: white;
+    padding: 15px;
+    background-color: var(--color-input);
+    border: .5px solid black;
+    border-radius: 9.6px 0 0 9.6px;
+    margin-right: 0px;
+}
+
+.entrada:focus {
+    transition: .2s;
+    outline: none !important;
+    border: 1px solid var(--color-input-button);
+    color: white;
+    background-color: black;
+}
+
+.colunas {
+    font-family: arial;
+    font-size: large;
+    color: white;
+    padding: 15px;
+    background-color: var(--color-input);
+    border: .5px solid black;
+    border-radius: 9.6px 0 0 9.6px;
+    margin-right: 0px;
+}
+
+.colunas:focus {
+    transition: .2s;
+    outline: none !important;
+    border: 1px solid var(--color-input-button);
+    color: white;
+    background-color: black;
+}
+
+.linhas {
+    font-family: arial;
+    font-size: large;
+    color: white;
+    padding: 15px;
+    background-color: var(--color-input);
+    border: .5px solid black;
+    border-radius: 0 9.6px 9.6px 0;
+    margin-right: 0px;
+}
+
+.linhas:focus {
+    transition: .2s;
+    outline: none !important;
+    border: 1px solid var(--color-input-button);
+    color: white;
+    background-color: black;
+}
+
+.gTable {
+    margin: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    padding: 15px;
+    border-radius: 9.6px 9.6px 9.6px 9.6px;
+    border: .5px solid black;
+    border-left: 0;
+    background-color: var(--color-button);
+    color: white;
+}
+
+.gTable:hover {
+    background-color: var(--color-button-hover);
+    outline: none !important;
+    border: 1px solid var(--color-input-button);
+}
+
+.button {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    padding: 15px;
+    border-radius: 0 9.6px 9.6px 0;
+    border: .5px solid black;
+    border-left: 0;
+    background-color: var(--color-button);
+    color: white;
+}
+
+.button:hover {
+    background-color: var(--color-button-hover);
+    outline: none !important;
+    border: 1px solid var(--color-input-button);
+}
+
+
+/* Esconder as setinhas do input number */
+
+
+/* Chrome, Safari, Edge, Opera */
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
+/* Firefox */
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+
+/* Tabela */
+
+table,
+td,
+th {
+    border: .5px solid white;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+table {
+    font-size: larger;
+    margin: 15px auto;
+    border-collapse: collapse;
+    background-color: var(--color-tabela-fundo);
+    color: white;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: white;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}

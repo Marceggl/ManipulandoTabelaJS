@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../main.css">
+    <link rel="stylesheet" href="ex3.css">
+    <title>Exercicio 3</title>
+</head>
+
+<body>
+    <div id="global">
+        <nav class="nav">
+            <a href="/./index.html">Home</a>
+            <a href="../index.html">Exercicio 1</a>
+            <a href="../Exercicio2/index.html" class="barra">Exercicio 2</a>
+            <a class="current" href="../Exercicio3/index.html">Exercicio 3</a>
+            <a href="/./versao1/index.html">Versão 1</a>
+        </nav>
+        <article>
+            <form action="">
+                <div id="centro">
+                    <div>
+                        <input type="number" class="colunas entU" placeholder="Insira o número de colunas">
+                        <input type="number" class="linhas entU" placeholder="Insira o número de linhas">
+                    </div>
+                    <div>
+                        <input type="button" class="gTable" value="Gerar tabela">
+                    </div>
+                </div>
+            </form>
+            <div class="tabela"></div>
+        </article>
+        <footer>
+            <p>Marcel Fernando - Nov/2020</p>
+        </footer>
+    </div>
+    <script src="gerarTabela.js"></script>
+</body>
+
+</html>

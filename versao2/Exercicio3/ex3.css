@@ -1,0 +1,9 @@
+tabEx3,
+td,
+th {
+    color: black;
+    border: .5px solid black;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
