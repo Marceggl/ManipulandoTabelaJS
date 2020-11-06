@@ -1,4 +1,4 @@
-$(".button").click(function() {
+$(".gTable").click(function() {
     uLinha = "<tr><td>Total</td>";
     let soma = 0;
     for (let i = 0; i < $("td").length - 1; i++) {
@@ -10,5 +10,5 @@ $(".button").click(function() {
         /* Coloca na tabela */
     $("table").append(uLinha);
     /* Desliga o botão e troca o nome dps de finalizar o processo */
-    $(".button").val("Idades Somadas").prop("disabled", true)
+    $(".gTable").val("Idades Somadas").prop("disabled", true)
 })
